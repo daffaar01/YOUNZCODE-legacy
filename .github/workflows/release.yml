@@ -130,7 +130,7 @@ jobs:
           cp -r skills release/skills
 
       - name: Compile installer (Inno Setup)
-        uses: Minionguyjpro/Inno-Setup-Action@b8e8eb5936437c243592fda645c96dfc6488c275 # v1.2.2
+        uses: Minionguyjpro/Inno-Setup-Action@36e43b836ce2c78d21787b1f7183caf85c60ba05 # v1.3.0
         with:
           path: installer/YOUNZCODE.iss
 
